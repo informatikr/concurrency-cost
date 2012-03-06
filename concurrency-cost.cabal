@@ -3,6 +3,7 @@ version:            0.1
 synopsis:
     How (in-)expensive are Haskell's concurrency constructs.
 Description:
+    Benchmarks for several of Haskell's concurrency construcs.
 license:            BSD3
 license-file:       LICENSE
 author:             Falko Peters
@@ -12,8 +13,12 @@ category:           Database
 build-type:         Simple
 cabal-version:      >=1.8
 homepage:           
-bug-reports:        
+bug-reports:        https://github.com/informatikr/Concurrency-Cost/issues
 
+source-repository head
+  type:     git
+  location: https://github.com/informatikr/concurrency-cost
+ 
 executable concurrency-cost
     main-is: Main.hs
     build-depends:
